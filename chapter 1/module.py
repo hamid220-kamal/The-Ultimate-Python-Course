@@ -1,14 +1,13 @@
-#importing a module
 import pyjokes
 
-#using a function from the module
-print(pyjokes.get_joke())
+# print("Printing Jokes...")
+
+# This prints a random joke
+joke = pyjokes.get_joke()
+print(joke)
 
 
-
-"""
-this is a multi
-
-line comment
-
-"""
+# so thanks
+# that was my program
+# another line
+# Yet another line
